@@ -1,6 +1,6 @@
 import pytest
 import asyncio
-from stonfi.http import HTTPAPI
+from py_stonfi.http import HTTPAPI
 
 http_api = HTTPAPI()
 

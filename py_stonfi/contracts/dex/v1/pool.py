@@ -1,7 +1,7 @@
 from pytoniq import begin_cell, Cell, Address, LiteClientLike, Slice
-from stonfi.constants import OP, GAS
-from stonfi.contracts.jetton.jetton_root import JettonRoot
-from stonfi.contracts.jetton.jetton_wallet import JettonWallet
+from py_stonfi.constants import OP, GAS
+from py_stonfi.contracts.jetton.jetton_root import JettonRoot
+from py_stonfi.contracts.jetton.jetton_wallet import JettonWallet
 from typing import Optional, Union, Type
 
 class PoolV1:

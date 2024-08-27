@@ -1,9 +1,9 @@
 from pytoniq import begin_cell, Cell, Address, LiteClientLike, Slice
-from stonfi.constants import ROUTER_V1_ADDRESS, OP, GAS, PTON_V1_ADDRESS
-from stonfi.contracts.pTON.v1 import pTON_V1
-from stonfi.contracts.jetton.jetton_root import JettonRoot
-from stonfi.contracts.jetton.jetton_wallet import JettonWallet
-from stonfi.contracts.dex.v1.pool import PoolV1
+from py_stonfi.constants import ROUTER_V1_ADDRESS, OP, GAS, PTON_V1_ADDRESS
+from py_stonfi.contracts.pTON.v1 import pTON_V1
+from py_stonfi.contracts.jetton.jetton_root import JettonRoot
+from py_stonfi.contracts.jetton.jetton_wallet import JettonWallet
+from py_stonfi.contracts.dex.v1.pool import PoolV1
 from typing import Optional, Union
 
 class RouterV1:

@@ -3,7 +3,7 @@ import pytest
 
 from pytoniq import Address, WalletV4R2, LiteBalancer
 from stonfi import RouterV1
-from stonfi.constants import ROUTER_ADDRESS_TESTNET, PTON_ADDRESS_TESTNET
+from py_stonfi.constants import ROUTER_ADDRESS_TESTNET, PTON_ADDRESS_TESTNET
 
 router = RouterV1(address=ROUTER_ADDRESS_TESTNET)
 TEST_JETTON = Address('kQBi0fzBTtCfwF1xM6tXMydpJlzfVgtgRmCFx3G--9hx97tM')

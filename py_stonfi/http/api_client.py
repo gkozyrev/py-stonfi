@@ -3,7 +3,7 @@ from pytoniq import Address
 import asyncio
 import traceback
 
-from stonfi.types import Asset, AssetsResponse, FarmsResponse, Farm, Pool, PoolsResponse, SwapSimulate, SwapStatus
+from py_stonfi.types import Asset, AssetsResponse, FarmsResponse, Farm, Pool, PoolsResponse, SwapSimulate, SwapStatus
 
 
 class HTTPAPI:
