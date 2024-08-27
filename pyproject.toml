@@ -3,11 +3,11 @@ requires = ["setuptools>=42", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "stonfi"
+name = "py-stonfi"
 version = "0.12"
-description = "Async Python SDK for StonFi DEX"
+description = "Asynchronous Python SDK for StonFi"
 authors = [
-    {name = "LapisMYT (Nikita Gavrilin)", email = "nikitagavrilin005@gmail.com"}
+    {name = "gkozyrev (George Kozyrev)", email = "me@gkozyrev.ru"}
 ]
 dependencies = [
     "pytoniq",
@@ -26,4 +26,4 @@ classifiers = ["Development Status :: 4 - Beta",
               "Typing :: Typed"]
 
 [project.urls]
-Homepage = "https://github.com/lapismyt/ston-fi.py"
+Homepage = "https://github.com/gkozyrev/py-stonfi"
